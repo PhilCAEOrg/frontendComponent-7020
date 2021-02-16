@@ -44,7 +44,7 @@ var init = function() {
 
   $('#button_cfd1d').on('click', function() {
     //start parameter initiation
-
+    document.getElementById("p").innerText = "Button wurde geklickt";
     //end parameter initiation
     btnFunc();
   })
